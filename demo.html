@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Marvin Standalone Demo</title>
+    <meta charset="UTF-8"></meta>
+
+</head>
+<body style="font-family: monospace;">
+    <noscript>Sorry, but you will need to enable javascript to view this page!       </noscript>
+    <h2>Marvin Standalone Example HTML Page</h2>
+        <div id="game" player-name="Leo">
+            <script src="https://cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+            <script src="./game/TitleScreen.js"></script>
+            <script src="./game/Instructions.js"></script>
+            <script src="./game/Countdown.js"></script>
+            <script src="./game/gameScene.js"></script>
+            <script src="./game/levels.js"></script>
+            <script src="./game/EndScene.js"></script>
+            <script src="./game/game.js"></script>
+            <script src="./game/standalone.js"></script>
+        </div>
+        
+
+    
+    <p>Give the above div(id="game") an attribute called "player-name" with your user's username using templating or JQuery or whatever you have available.</p>
+    <p>The player's name will be displayed at the end of the game. If you don't give the div that attribute, then that's fine too, it will omit the player name from the ending screen.</p>
+    <p>The game will also output an event to div(id="game") containing their name and score for you to use in a database if you wish.</p>
+    <p>View source to see an example JQuery handler for the score output event.</p>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script>
+        $('#game').on('outputScore', (event, score, playerName) => {
+            console.log('Player: '+ playerName +' --- Score:' + score);
+            $('#output-sample').text(`Player: ${playerName} --- Score: ${score}`);
+        });
+    </script>
+    <p id="output-sample" style="color: green;">This will be placeholder text until you finish a game, then will display the output data</p>
+</body>
+</html>
+

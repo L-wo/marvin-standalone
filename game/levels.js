@@ -1,1 +1,123 @@
-var a6_0x4b50=['beam','apply','Level4','Level1','^([^\x20]+(\x20+[^\x20]+)+)+[^\x20]}','Level2','Level6','motorPos','spot','Level8','nextLevel','flightcases','level1','Level5','trussStart','music','return\x20/\x22\x20+\x20this\x20+\x20\x22/','wash','level3','Level7','EndScene','strobe','level2','relentmore','constructor','Level3'];(function(_0x1de0de,_0x4b50f9){var _0x38e91b=function(_0x50a54b){while(--_0x50a54b){_0x1de0de['push'](_0x1de0de['shift']());}};var _0x4d356d=function(){var _0x4986f2={'data':{'key':'cookie','value':'timeout'},'setCookie':function(_0x5232fe,_0x221d74,_0x5d637f,_0x3f4d19){_0x3f4d19=_0x3f4d19||{};var _0x29d0ac=_0x221d74+'='+_0x5d637f;var _0x571e22=0x0;for(var _0x12a1f3=0x0,_0x5edf63=_0x5232fe['length'];_0x12a1f3<_0x5edf63;_0x12a1f3++){var _0x564cf0=_0x5232fe[_0x12a1f3];_0x29d0ac+=';\x20'+_0x564cf0;var _0x520418=_0x5232fe[_0x564cf0];_0x5232fe['push'](_0x520418);_0x5edf63=_0x5232fe['length'];if(_0x520418!==!![]){_0x29d0ac+='='+_0x520418;}}_0x3f4d19['cookie']=_0x29d0ac;},'removeCookie':function(){return'dev';},'getCookie':function(_0x59e365,_0x5ca135){_0x59e365=_0x59e365||function(_0xce17df){return _0xce17df;};var _0x5123ab=_0x59e365(new RegExp('(?:^|;\x20)'+_0x5ca135['replace'](/([.$?*|{}()[]\/+^])/g,'$1')+'=([^;]*)'));var _0x1d72d0=function(_0x5dc469,_0x35c59c){_0x5dc469(++_0x35c59c);};_0x1d72d0(_0x38e91b,_0x4b50f9);return _0x5123ab?decodeURIComponent(_0x5123ab[0x1]):undefined;}};var _0x329b8c=function(){var _0xd809=new RegExp('\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*[\x27|\x22].+[\x27|\x22];?\x20*}');return _0xd809['test'](_0x4986f2['removeCookie']['toString']());};_0x4986f2['updateCookie']=_0x329b8c;var _0x2501a5='';var _0x3b59af=_0x4986f2['updateCookie']();if(!_0x3b59af){_0x4986f2['setCookie'](['*'],'counter',0x1);}else if(_0x3b59af){_0x2501a5=_0x4986f2['getCookie'](null,'counter');}else{_0x4986f2['removeCookie']();}};_0x4d356d();}(a6_0x4b50,0xe1));var a6_0x38e9=function(_0x1de0de,_0x4b50f9){_0x1de0de=_0x1de0de-0x0;var _0x38e91b=a6_0x4b50[_0x1de0de];return _0x38e91b;};var a6_0x4986f2=function(){var _0x453a51=!![];return function(_0x27d89,_0x4d8f11){var _0x3ac6c0=_0x453a51?function(){if(_0x4d8f11){var _0x4fe5e9=_0x4d8f11[a6_0x38e9('0xa')](_0x27d89,arguments);_0x4d8f11=null;return _0x4fe5e9;}}:function(){};_0x453a51=![];return _0x3ac6c0;};}();var a6_0x50a54b=a6_0x4986f2(this,function(){var _0x1a621f=function(){var _0x1678d0=_0x1a621f[a6_0x38e9('0x7')](a6_0x38e9('0x19'))()['compile'](a6_0x38e9('0xd'));return!_0x1678d0['test'](a6_0x50a54b);};return _0x1a621f();});a6_0x50a54b();class Level1 extends GameScene{constructor(){super(a6_0x38e9('0xc'));this[a6_0x38e9('0x14')]=[{'x':0x2,'y':0x8,'fixture':'wash'},{'x':0x5,'y':0x8,'fixture':a6_0x38e9('0x0')}];this['trussStart']=[0x5,0x3];this['relentmore']=[[0x8,0x8]];this['motorPos']=[0xa,0x8];this[a6_0x38e9('0x18')]='level1';this['nextLevel']=a6_0x38e9('0x3');}}class Level2 extends GameScene{constructor(){super(a6_0x38e9('0xe'));this['flightcases']=[{'x':0x1,'y':0x0,'fixture':a6_0x38e9('0x0')},{'x':0x4,'y':0x0,'fixture':a6_0x38e9('0x11')}];this[a6_0x38e9('0x17')]=[0x6,0x4];this['relentmore']=[[0x2,0x4]];this[a6_0x38e9('0x10')]=[0xa,0x8];this[a6_0x38e9('0x18')]=a6_0x38e9('0x15');this['nextLevel']=a6_0x38e9('0x8');}}class Level3 extends GameScene{constructor(){super(a6_0x38e9('0x8'));this[a6_0x38e9('0x14')]=[{'x':0x1,'y':0x1,'fixture':a6_0x38e9('0x0')},{'x':0x1,'y':0x4,'fixture':a6_0x38e9('0x11')},{'x':0x1,'y':0x7,'fixture':a6_0x38e9('0x0')}];this[a6_0x38e9('0x17')]=[0x5,0x3];this[a6_0x38e9('0x6')]=[[0x6,0x6]];this['motorPos']=[0xc,0x3];this[a6_0x38e9('0x18')]=a6_0x38e9('0x15');this['nextLevel']=a6_0x38e9('0xb');}}class Level4 extends GameScene{constructor(){super('Level4');this[a6_0x38e9('0x14')]=[{'x':0x1,'y':0x7,'fixture':a6_0x38e9('0x0')},{'x':0x4,'y':0x7,'fixture':a6_0x38e9('0x0')},{'x':0x7,'y':0x7,'fixture':a6_0x38e9('0x0')},{'x':0xa,'y':0x7,'fixture':a6_0x38e9('0x0')}];this['trussStart']=[0x3,0x3];this['relentmore']=[[0x3,0x5],[0x9,0x5]];this[a6_0x38e9('0x10')]=[0x1,0x1];this[a6_0x38e9('0x18')]=a6_0x38e9('0x5');this[a6_0x38e9('0x13')]=a6_0x38e9('0x16');}}class Level5 extends GameScene{constructor(){super('Level5');this[a6_0x38e9('0x14')]=[{'x':0x2,'y':0x0,'fixture':a6_0x38e9('0x0')},{'x':0xa,'y':0x0,'fixture':a6_0x38e9('0x11')},{'x':0x2,'y':0x3,'fixture':a6_0x38e9('0x9')},{'x':0xa,'y':0x3,'fixture':a6_0x38e9('0x9')}];this[a6_0x38e9('0x17')]=[0x3,0x6];this['relentmore']=[[0x1,0x6],[0xc,0x6]];this[a6_0x38e9('0x10')]=[0x6,0x8];this[a6_0x38e9('0x18')]='level2';this['nextLevel']=a6_0x38e9('0xf');}}class Level6 extends GameScene{constructor(){super(a6_0x38e9('0xf'));this[a6_0x38e9('0x14')]=[{'x':0x3,'y':0x5,'fixture':a6_0x38e9('0x0')},{'x':0x8,'y':0x5,'fixture':a6_0x38e9('0x11')},{'x':0x3,'y':0x7,'fixture':a6_0x38e9('0x9')},{'x':0x8,'y':0x7,'fixture':a6_0x38e9('0x4')}];this[a6_0x38e9('0x17')]=[0x3,0x3];this['relentmore']=[[0x6,0x6]];this['motorPos']=[0x6,0x1];this['music']=a6_0x38e9('0x5');this[a6_0x38e9('0x13')]=a6_0x38e9('0x2');}}class Level7 extends GameScene{constructor(){super(a6_0x38e9('0x2'));this['flightcases']=[{'x':0x2,'y':0x1,'fixture':a6_0x38e9('0x9')},{'x':0xa,'y':0x1,'fixture':a6_0x38e9('0x9')},{'x':0x2,'y':0x7,'fixture':a6_0x38e9('0x4')},{'x':0x6,'y':0x7,'fixture':a6_0x38e9('0x4')},{'x':0xa,'y':0x7,'fixture':a6_0x38e9('0x4')}];this['trussStart']=[0x2,0x3];this[a6_0x38e9('0x6')]=[[0x2,0x5],[0xc,0x5]];this[a6_0x38e9('0x10')]=[0x6,0x1];this[a6_0x38e9('0x18')]=a6_0x38e9('0x1');this[a6_0x38e9('0x13')]=a6_0x38e9('0x12');}}class Level8 extends GameScene{constructor(){super(a6_0x38e9('0x12'));this[a6_0x38e9('0x14')]=[{'x':0x1,'y':0x8,'fixture':a6_0x38e9('0x0')},{'x':0x4,'y':0x8,'fixture':a6_0x38e9('0x11')},{'x':0x7,'y':0x8,'fixture':a6_0x38e9('0x11')},{'x':0x1,'y':0x1,'fixture':a6_0x38e9('0x9')},{'x':0x4,'y':0x1,'fixture':a6_0x38e9('0x4')},{'x':0x7,'y':0x1,'fixture':'strobe'}];this[a6_0x38e9('0x17')]=[0x1,0x4];this['relentmore']=[[0xa,0x1],[0xa,0x8]];this[a6_0x38e9('0x10')]=[0xc,0x8];this['music']=a6_0x38e9('0x1');this['nextLevel']='EndScene';}}
+class Level1 extends GameScene { //GOOD
+	constructor() {
+    super('Level1')   
+    this.flightcases = [	{x:2,y:8,fixture:'wash'},
+                          {x:5,y:8,fixture:'wash'}]
+
+    this.trussStart = [5,3];
+    this.relentmore = [[8,8]];
+    this.motorPos = [10,8];
+    this.music = 'level1';
+	  this.nextLevel = 'Level2';
+	}
+}
+  
+class Level2 extends GameScene {
+	constructor() {
+    super('Level2')
+    this.flightcases = [	{x:1,y:0,fixture:'wash'},
+                          {x:4,y:0,fixture:'spot'}]
+
+    this.trussStart = [6,4];
+    this.relentmore = [[2,4]];
+    this.motorPos = [10,8];
+    this.music = 'level1';
+		this.nextLevel = 'Level3';
+	}
+}
+  
+class Level3 extends GameScene {
+	constructor() {
+    super('Level3')
+    this.flightcases = [	{x:1,y:1,fixture:'wash'},
+                          {x:1,y:4,fixture:'spot'},
+                          {x:1,y:7,fixture:'wash'}]
+    
+    this.trussStart = [5,3];
+    this.relentmore = [[6,6]];
+    this.motorPos = [12,3];
+    this.music = 'level1';
+		this.nextLevel = 'Level4';
+	}
+}
+
+class Level4 extends GameScene {
+  constructor() {
+    super('Level4')
+    this.flightcases = [  {x:1,y:7,fixture:'wash'},
+                          {x:4,y:7,fixture:'wash'}, 
+                          {x:7,y:7,fixture:'wash'}, 
+                          {x:10,y:7,fixture:'wash'}]
+
+    this.trussStart = [3,3];
+    this.relentmore = [[3,5],[9,5]];
+    this.motorPos = [1,1];
+    this.music = 'level2';
+    this.nextLevel = 'Level5';
+  }
+}
+
+class Level5 extends GameScene {
+  constructor() {
+    super('Level5')
+    this.flightcases = [  {x:2,y:0,fixture:'wash'},
+                          {x:10,y:0,fixture:'spot'}, 
+                          {x:2,y:3,fixture:'beam'},  
+                          {x:10,y:3,fixture:'beam'}]
+    this.trussStart = [3,6];
+    this.relentmore = [[1,6],[12,6]];
+    this.motorPos = [6,8];
+    this.music = 'level2';
+    this.nextLevel = 'Level6';
+  }
+}
+
+class Level6 extends GameScene {
+  constructor() {
+    super('Level6')
+    this.flightcases = [  {x:3,y:5,fixture:'wash'},
+                          {x:8,y:5,fixture:'spot'}, 
+                          {x:3,y:7,fixture:'beam'}, 
+                          {x:8,y:7,fixture:'strobe'}]
+    this.trussStart = [3,3];
+    this.relentmore = [[6,6]];
+    this.motorPos = [6,1];
+    this.music = 'level2';
+    this.nextLevel = 'Level7';
+  }
+}
+
+
+class Level7 extends GameScene {
+  constructor() {
+    super('Level7')
+    this.flightcases = [	{x:2,y:1,fixture:'beam'},
+                          {x:10,y:1,fixture:'beam'},
+                          {x:2,y:7,fixture:'strobe'},
+                          {x:6,y:7,fixture:'strobe'},
+                          {x:10,y:7,fixture:'strobe'}]
+    this.trussStart = [2,3];
+    this.relentmore = [[2,5],[12,5]];
+    this.motorPos = [6,1];
+    this.music = 'level3';
+    this.nextLevel = 'Level8';
+  }
+}
+
+class Level8 extends GameScene {
+  constructor() {
+    super('Level8')
+    this.flightcases = [	{x:1,y:8,fixture:'wash'},
+                          {x:4,y:8,fixture:'spot'},
+                          {x:7,y:8,fixture:'spot'},
+                          {x:1,y:1,fixture:'beam'},
+                          {x:4,y:1,fixture:'strobe'},
+                          {x:7,y:1,fixture:'strobe'}]
+
+    this.trussStart = [1,4];
+    this.relentmore = [[10,1],[10,8]];
+    this.motorPos = [12,8];
+    this.music = 'level3';
+    this.nextLevel = 'EndScene';
+  }
+}
